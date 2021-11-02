@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+</head>
+
+<body>
+    <h1>Prisma Electron Test!</h1>
+    User Data: <span id="user-data"></span>
+    <br>
+    <span><button id="prismaBtn"> Get all users </button> </span>
+    <br>
+    <span><button id="createBtn"> Add a user</button> </span>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
